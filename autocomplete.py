@@ -1,6 +1,6 @@
 import os
 import readline
-from builtins import COMMANDS
+from my_builtins import COMMANDS
 from utils import find_executables_starting_with
 
 AUTOCOMPLETION = list(COMMANDS.keys())
